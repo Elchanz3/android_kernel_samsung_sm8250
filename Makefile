@@ -435,6 +435,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wno-trigraphs \
 		   -Wno-declaration-after-statement \
 		   -Wno-pointer-compare \
 		   -std=gnu89
+KBUILD_CFLAGS	+= -DPLATFORM_VERSION=11.0.0
 KBUILD_CPPFLAGS := -D__KERNEL__
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
