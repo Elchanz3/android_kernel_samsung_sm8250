@@ -3,8 +3,8 @@
 export ARCH=arm64
 mkdir out
 
-BUILD_CROSS_COMPILE=$(pwd)/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-KERNEL_LLVM_BIN=$(pwd)/toolchain/llvm-arm-toolchain-ship/10.0/bin/clang
+BUILD_CROSS_COMPILE=/home/chanz22/Músicas/Kernel-S20/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+KERNEL_LLVM_BIN=/home/chanz22/Músicas/Kernel-S20/linux-x86/clang-r383902b/bin/clang
 CLANG_TRIPLE=aarch64-linux-gnu-
 KERNEL_MAKE_ENV="DTC_EXT=$(pwd)/tools/dtc CONFIG_BUILD_ARM64_DT_OVERLAY=y"
 
